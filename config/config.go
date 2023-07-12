@@ -74,6 +74,7 @@ type Config struct {
 	Metrics                metrics.Config
 	EventLog               event.Config
 	HashDB                 db.Config
+	Batch                  pool.BatchConfig
 }
 
 // Default parses the default configuration values.
